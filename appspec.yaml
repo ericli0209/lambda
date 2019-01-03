@@ -4,6 +4,7 @@ Resources:
       Type: AWS::Lambda::Function
       Properties:
         Name: "deploylambda"
+        Alias: "myLambdaAlias"
         CurrentVersion: "1"
         TargetVersion: "2"
 #Hooks:
